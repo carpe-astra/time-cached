@@ -1,0 +1,9 @@
+Logging
+Custom exceptions
+
+Check times of all cached results on startup?
+Allow user to specify db dir?
+Max size like lrucache?
+Typed like lrucached?
+Allow in-memory option?
+New db path for each module? (avoid cross contamination)

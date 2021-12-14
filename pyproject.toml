@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "time-cached"
+version = "0.1.0"
+description = "A python module for caching results of function calls for a certain amount of time, even between instances."
+authors = ["Taylor Young <y.taylor@rocketmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tinydb = "^4.5.2"
+pydantic = "^1.8.2"
+tinydb-serialization = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
